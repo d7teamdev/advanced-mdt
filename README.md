@@ -162,11 +162,11 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 <div dir="rtl">
 
-## Advanced MDT — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و CFW
+## ام دي تي المطور — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و CFW
 
 سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و CFW: القضايا، البحث عن المواطنين، المطلوبين، كاميرا الأدلة، التهم، البصمات ونقاط العساكر.
 
-نظام MDT احترافي ومخصص لسيرفرات QBCore و QBox، مصمم للجهات الرسمية مثل الشرطة، المباحث، الشؤون العسكرية، والقطاعات اللي تحتاج إدارة قضايا، بحث، مطلوبين، أدلة، ونظام معلومات منظم داخل السيرفر.
+نظام ام دي تي احترافي ومخصص لسيرفرات QBCore و QBox، مصمم للجهات الرسمية مثل الشرطة، المباحث، الشؤون العسكرية، والقطاعات اللي تحتاج إدارة قضايا، بحث، مطلوبين، أدلة، ونظام معلومات منظم داخل السيرفر.
 
 > هذا المستودع للتعريف والشرح فقط. الريسورس يُباع في متجرنا، وتحمّله من منطقة العميل بعد ما تفعّل الكود
 
@@ -234,13 +234,13 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 - oxmysql
 - ox أو qb أو qs أو ps أو lj-inventory
 - اختياري: qb-houses أو ps-housing أو qs-housing
-- ترخيص Advanced MDT أو اشتراك السكربتات
+- ترخيص ام دي تي المطور أو اشتراك السكربتات
 
 ### التثبيت
 
-1. اشترِ Advanced MDT أو اشتراك السكربتات من متجرنا.
+1. اشترِ ام دي تي المطور أو اشتراك السكربتات من متجرنا.
 2. سجّل دخولك في panel.d7team.com عن طريق دسكورد.
-3. منطقة العميل ← تفعيل كود: اكتب الكود وآيبي سيرفرك العام.
+3. منطقة العميل ← تفعيل كود: اكتب الكود وآيبي سيرفرك.
 4. حمّل d7-mdt من منطقة العميل وحطه في مجلد resources حقك.
 5. أضف آيتم mdtlaptop لآيتمات الإنفنتري حقك.
 6. حدّد في config/config.lua الفريم وورك والإنفنتري والقطاعات.
@@ -311,8 +311,8 @@ ensure d7-mdt
 
 ### منتجات ثانية من دلتا سفن
 
-- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و CFW
-- [Advanced BossMenu](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و CFW
+- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox
+- [بوس منيو المطور](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و CFW
 - [سيارات فايف ام مضافة](https://d7team.com/ar/cars)
 
 </div>
