@@ -1,17 +1,17 @@
 <p align="center"><img src="https://d7team.com/icon-512.png" width="88" alt="Delta Seven"></p>
 <h1 align="center">Advanced MDT</h1>
-<p align="center"><b>FiveM Police MDT for QBCore, QBox & CFW</b></p>
+<p align="center"><b>FiveM Police MDT for QBCore, QBox, ESX & CFW</b></p>
 <p align="center"><a href="#english">English</a> · <a href="#arabic">العربية</a></p>
 
 <p align="center"><a href="https://d7team.com/products/advanced-mdt"><img src="https://img.youtube.com/vi/OyMPzluRDQQ/maxresdefault.jpg" alt="Advanced MDT" width="860"></a></p>
 
 <a id="english"></a>
 
-## Advanced MDT — FiveM Police MDT for QBCore, QBox & CFW
+## Advanced MDT — FiveM Police MDT for QBCore, QBox, ESX & CFW
 
-FiveM police MDT for QBCore, QBox & CFW: cases, citizen search, wanted records, an evidence camera, charges, fingerprints and officer points.
+FiveM police MDT for QBCore, QBox, ESX & CFW: cases, citizen search, wanted records, an evidence camera, charges, fingerprints and officer points.
 
-MDT system built for QBCore & QBox, for official roles such as police, investigations and military affairs — case management, search, wanted records, evidence, and organised information inside your server.
+MDT system built for QBCore, QBox & ESX, for official roles such as police, investigations and military affairs — case management, search, wanted records, evidence, and organised information inside your server.
 
 > This repository is documentation only. The resource is sold on our store and downloaded from the Client Area after you redeem your code.
 
@@ -21,7 +21,7 @@ MDT system built for QBCore & QBox, for official roles such as police, investiga
 
 | | |
 |---|---|
-| **Works with** | QBCore and QBox servers, CFW included |
+| **Works with** | QBCore, QBox and ESX servers, CFW included |
 | **Inventories** | ox_inventory, qb-inventory, qs-inventory, ps-inventory and lj-inventory |
 | **Housing** | qb-houses, ps-housing and qs-housing |
 | **Opening** | Laptop item, /mdt command or a key |
@@ -75,9 +75,9 @@ MDT system built for QBCore & QBox, for official roles such as police, investiga
 
 ### Requirements
 
-- A QBCore or QBox server, CFW included
+- A QBCore, QBox or ESX server, CFW included
 - oxmysql
-- ox, qb, qs, ps or lj-inventory
+- ox, qb, qs, ps or lj-inventory, or the one built into ESX (es_extended)
 - Optional: qb-houses, ps-housing or qs-housing
 - An Advanced MDT licence or the scripts subscription
 
@@ -88,7 +88,7 @@ MDT system built for QBCore & QBox, for official roles such as police, investiga
 3. Client Area → Redeem Code: enter the code and your server's public IP.
 4. Download d7-mdt from the Client Area and put it in resources.
 5. Add the mdtlaptop item to your inventory's items.
-6. Set your framework, inventory and departments in config/config.lua.
+6. Set your departments in config/config.lua; framework and inventory are detected.
 7. In server.cfg, start it after your database, framework and inventory:
 
    ```cfg
@@ -114,7 +114,7 @@ Configuration, first start, updates and every console message explained: [Instal
 <details>
 <summary><b>Which servers does Advanced MDT work on?</b></summary>
 
-QBCore and QBox servers, CFW included, with ox_inventory, qb-inventory, qs-inventory, ps-inventory or lj-inventory.
+QBCore, QBox and ESX servers, CFW included, with ox_inventory, qb-inventory, qs-inventory, ps-inventory or lj-inventory, or the inventory built into ESX.
 
 </details>
 
@@ -152,8 +152,8 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 ### More from Delta Seven
 
-- [Delta Panel](https://github.com/d7teamdev/delta-panel) — FiveM Admin Panel for QBCore, QBox & CFW Servers
-- [Advanced BossMenu](https://github.com/d7teamdev/advanced-bossmenu) — FiveM Boss Menu for QBCore, QBox & CFW
+- [Delta Panel](https://github.com/d7teamdev/delta-panel) — FiveM Admin Panel for QBCore, QBox, ESX, vRP & CFW Servers
+- [Advanced BossMenu](https://github.com/d7teamdev/advanced-bossmenu) — FiveM Boss Menu for QBCore, QBox, ESX & CFW
 - [Add-on FiveM cars](https://d7team.com/cars)
 
 ---
@@ -162,11 +162,11 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 <div dir="rtl">
 
-## ام دي تي المطور — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و CFW
+## ام دي تي المطور — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
 
-سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و CFW: القضايا، البحث عن المواطنين، المطلوبين، كاميرا الأدلة، التهم، البصمات ونقاط العساكر.
+سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW: القضايا، البحث عن المواطنين، المطلوبين، كاميرا الأدلة، التهم، البصمات ونقاط العساكر.
 
-نظام ام دي تي احترافي ومخصص لسيرفرات QBCore و QBox، مصمم للجهات الرسمية مثل الشرطة، المباحث، الشؤون العسكرية، والقطاعات اللي تحتاج إدارة قضايا، بحث، مطلوبين، أدلة، ونظام معلومات منظم داخل السيرفر.
+نظام ام دي تي احترافي ومخصص لسيرفرات QBCore و QBox و ESX، مصمم للجهات الرسمية مثل الشرطة، المباحث، الشؤون العسكرية، والقطاعات اللي تحتاج إدارة قضايا، بحث، مطلوبين، أدلة، ونظام معلومات منظم داخل السيرفر.
 
 > هذا المستودع للتعريف والشرح فقط. الريسورس يُباع في متجرنا، وتحمّله من منطقة العميل بعد ما تفعّل الكود
 
@@ -176,7 +176,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 | | |
 |---|---|
-| **يشتغل مع** | سيرفرات QBCore و QBox، ومعها CFW |
+| **يشتغل مع** | سيرفرات QBCore و QBox و ESX، ومعها CFW |
 | **الإنفنتري** | ox_inventory و qb-inventory و qs-inventory و ps-inventory و lj-inventory |
 | **العقارات** | qb-houses و ps-housing و qs-housing |
 | **طريقة الفتح** | آيتم اللابتوب، أمر ⁦/mdt⁩، أو زر |
@@ -230,9 +230,9 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 ### المتطلبات
 
-- سيرفر QBCore أو QBox، ومعها CFW
+- سيرفر QBCore أو QBox أو ESX، ومعها CFW
 - oxmysql
-- ox أو qb أو qs أو ps أو lj-inventory
+- ox أو qb أو qs أو ps أو lj-inventory، أو المدمج في ESX ‏(es_extended)
 - اختياري: qb-houses أو ps-housing أو qs-housing
 - ترخيص ام دي تي المطور أو اشتراك السكربتات
 
@@ -243,7 +243,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 3. منطقة العميل ← تفعيل كود: اكتب الكود وآيبي سيرفرك.
 4. حمّل d7-mdt من منطقة العميل وحطه في مجلد resources حقك.
 5. أضف آيتم mdtlaptop لآيتمات الإنفنتري حقك.
-6. حدّد في config/config.lua الفريم وورك والإنفنتري والقطاعات.
+6. حدّد القطاعات في config/config.lua. الفريم وورك والإنفنتري والسكن يتعرّف عليها تلقائي.
 7. في server.cfg، شغّله بعد قاعدة البيانات والفريم وورك والإنفنتري:
 
 </div>
@@ -273,7 +273,7 @@ ensure d7-mdt
 <details>
 <summary><b>على أي سيرفرات يشتغل Advanced MDT؟</b></summary>
 
-سيرفرات QBCore و QBox، ومعها CFW، مع ox_inventory أو qb-inventory أو qs-inventory أو ps-inventory أو lj-inventory
+سيرفرات QBCore و QBox و ESX، ومعها CFW، مع ox_inventory أو qb-inventory أو qs-inventory أو ps-inventory أو lj-inventory، أو الإنفنتري المدمج في ESX
 
 </details>
 
@@ -311,8 +311,8 @@ ensure d7-mdt
 
 ### منتجات ثانية من دلتا سفن
 
-- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox
-- [بوس منيو المطور](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و CFW
+- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
+- [بوس منيو المطور](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
 - [سيارات فايف ام مضافة](https://d7team.com/ar/cars)
 
 </div>
