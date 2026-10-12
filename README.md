@@ -22,7 +22,7 @@ MDT system built for QBCore, QBox & ESX, for official roles such as police, inve
 | | |
 |---|---|
 | **Works with** | QBCore, QBox and ESX servers, CFW included |
-| **Inventories** | ox_inventory, qb-inventory, qs-inventory, ps-inventory and lj-inventory |
+| **Inventories** | ox_inventory, qb-inventory, qs-inventory, ps-inventory and lj-inventory, and the inventory built into ESX |
 | **Housing** | qb-houses, ps-housing and qs-housing |
 | **Opening** | Laptop item, /mdt command or a key |
 | **Interaction** | Target, Interact or marker |
@@ -144,7 +144,7 @@ With the laptop item, the /mdt command or a key, and it can be placed in the wor
 <details>
 <summary><b>How much does it cost?</b></summary>
 
-$34.99 once, or $7.99 a month with the scripts subscription, which covers Advanced MDT and Advanced BossMenu together.
+$34.99 once, or $7.99 a month with the scripts subscription, which covers Advanced MDT and Advanced BossMenu together. It also comes with Delta Panel and Advanced BossMenu in the Premium Bundle, at $13.99 a month or $34.99 for 3 months.
 
 </details>
 
@@ -179,7 +179,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 | | |
 |---|---|
 | **يشتغل مع** | سيرفرات QBCore و QBox و ESX، ومعها CFW |
-| **الإنفنتري** | ox_inventory و qb-inventory و qs-inventory و ps-inventory و lj-inventory |
+| **الإنفنتري** | ox_inventory و qb-inventory و qs-inventory و ps-inventory و lj-inventory، والإنفنتري المدمج في ESX |
 | **العقارات** | qb-houses و ps-housing و qs-housing |
 | **طريقة الفتح** | آيتم اللابتوب، أمر ⁦/mdt⁩، أو زر |
 | **التفاعل** | Target أو Interact أو ماركر |
@@ -305,7 +305,7 @@ ensure d7-mdt
 <details>
 <summary><b>كم سعره؟</b></summary>
 
-⁦$34.99⁩ مرة وحدة، أو ⁦$7.99⁩ بالشهر مع اشتراك السكربتات الي يشمل Advanced MDT و Advanced BossMenu مع بعض.
+⁦$34.99⁩ مرة وحدة، أو ⁦$7.99⁩ بالشهر مع اشتراك السكربتات الي يشمل Advanced MDT و Advanced BossMenu مع بعض. ويجي كمان مع لوحة دلتا و Advanced BossMenu في باقة بريميوم بـ ⁦$13.99⁩ بالشهر أو ⁦$34.99⁩ لمدة 3 أشهر.
 
 </details>
 
