@@ -22,7 +22,7 @@ MDT system built for QBCore, QBox & ESX, for official roles such as police, inve
 | | |
 |---|---|
 | **Works with** | QBCore, QBox and ESX servers, CFW included |
-| **Inventories** | ox_inventory, qb-inventory, qs-inventory, ps-inventory and lj-inventory, and the inventory built into ESX |
+| **Inventories** | Most inventory resources, on every framework |
 | **Housing** | qb-houses, ps-housing and qs-housing |
 | **Opening** | Laptop item, /mdt command or a key |
 | **Interaction** | Target, Interact or marker |
@@ -75,9 +75,13 @@ MDT system built for QBCore, QBox & ESX, for official roles such as police, inve
 
 ### Requirements
 
-- A QBCore, QBox or ESX server, CFW included
+- **QBCore:** A QBCore server, CFW included
+- **QBox:** A QBox server with qbx_core and ox_lib
+- **ESX:** An ESX server with es_extended
 - oxmysql
-- ox, qb, qs, ps or lj-inventory, or the one built into ESX (es_extended)
+- **QBCore:** ox, qb, qs, ps or lj-inventory
+- **QBox:** ox_inventory
+- **ESX:** ox_inventory, or the inventory built into ESX
 - Optional: qb-houses, ps-housing or qs-housing
 - An Advanced MDT licence or the scripts subscription
 
@@ -91,6 +95,8 @@ MDT system built for QBCore, QBox & ESX, for official roles such as police, inve
 6. Set your departments in config/config.lua; framework and inventory are detected.
 7. In server.cfg, start it after your database, framework and inventory:
 
+   **QBCore**
+
    ```cfg
    ensure oxmysql
    ensure qb-core
@@ -98,6 +104,29 @@ MDT system built for QBCore, QBox & ESX, for official roles such as police, inve
    ensure d7-mdt
    ```
 
+
+   **QBox**
+
+   ```cfg
+   ensure oxmysql
+   ensure ox_lib
+   ensure qbx_core
+   ensure ox_inventory
+   ensure d7-mdt
+   ```
+
+
+   **ESX**
+
+   ```cfg
+   ensure oxmysql
+   ensure es_extended
+   ensure ox_inventory
+   ensure d7-mdt
+   ```
+
+
+   **ESX:** On the inventory built into ESX, leave the ox_inventory line out.
 8. Restart the server.
 
 Configuration, first start, updates and every console message explained: [Installation guide](https://d7team.com/guides/advanced-mdt)
@@ -106,8 +135,8 @@ Configuration, first start, updates and every console message explained: [Instal
 
 - **$34.99** — [One-time purchase of this script](https://store.d7team.com/advanced-mdt/p911730490)
 - **$7.99 / month** — [Scripts subscription (Advanced MDT and Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): every script, free IP change during the subscription, and free updates
-- **$13.99 / month** — [Premium Bundle (Delta Panel, Advanced MDT and Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
-- **$34.99 / 3 months** — [Premium Bundle, 3 months](https://store.d7team.com/premium-bundle-90-days/p645358899)
+- **$13.99 / month** — [Premium Plan (Delta Panel, Advanced MDT and Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **$34.99 / quarter** — [Premium Plan, quarterly](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [Store](https://store.d7team.com/advanced-mdt/p911730490)
 
@@ -116,7 +145,7 @@ Configuration, first start, updates and every console message explained: [Instal
 <details>
 <summary><b>Which servers does Advanced MDT work on?</b></summary>
 
-QBCore, QBox and ESX servers, CFW included, with ox_inventory, qb-inventory, qs-inventory, ps-inventory or lj-inventory, or the inventory built into ESX.
+QBCore, QBox and ESX servers, CFW included, and most inventory resources are supported on every framework.
 
 </details>
 
@@ -142,9 +171,9 @@ With the laptop item, the /mdt command or a key, and it can be placed in the wor
 </details>
 
 <details>
-<summary><b>How much does it cost?</b></summary>
+<summary><b>How much does Advanced MDT cost?</b></summary>
 
-$34.99 once, or $7.99 a month with the scripts subscription, which covers Advanced MDT and Advanced BossMenu together. It also comes with Delta Panel and Advanced BossMenu in the Premium Bundle, at $13.99 a month or $34.99 for 3 months.
+It comes with several options: buy it once for $34.99, get it in the scripts subscription with Advanced BossMenu for $7.99 a month, or in the Premium Plan with Delta Panel and Advanced BossMenu from $13.99 a month.
 
 </details>
 
@@ -164,7 +193,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 <div dir="rtl">
 
-## ام دي تي المطور — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
+## ام دي تي متطور — سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
 
 سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW: القضايا، البحث عن المواطنين، المطلوبين، كاميرا الأدلة، التهم، البصمات ونقاط العساكر.
 
@@ -179,7 +208,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 | | |
 |---|---|
 | **يشتغل مع** | سيرفرات QBCore و QBox و ESX، ومعها CFW |
-| **الإنفنتري** | ox_inventory و qb-inventory و qs-inventory و ps-inventory و lj-inventory، والإنفنتري المدمج في ESX |
+| **الإنفنتري** | أغلب ريسورسات الحقائب مدعومة، لكل أنواع الفريم وورك |
 | **العقارات** | qb-houses و ps-housing و qs-housing |
 | **طريقة الفتح** | آيتم اللابتوب، أمر ⁦/mdt⁩، أو زر |
 | **التفاعل** | Target أو Interact أو ماركر |
@@ -216,7 +245,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 - صفحة العساكر: الأعضاء، حالة الدوام، النقاط، الونقات وعدد القضايا
 - تسجيل الدخول والخروج من الدوام من الـ MDT
-- نقاط العساكر والونقات مرتبطة مع Advanced BossMenu
+- نقاط العساكر والونقات مرتبطة مع بوس منيو متطور
 - صلاحيات الونقات للتحكم بالوصول داخل الـ MDT
 
 #### الإعداد واللوقات
@@ -232,21 +261,27 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 ### المتطلبات
 
-- سيرفر QBCore أو QBox أو ESX، ومعها CFW
+- **QBCore:** سيرفر QBCore، ومعها CFW
+- **QBox:** سيرفر QBox مع qbx_core و ox_lib
+- **ESX:** سيرفر ESX مع es_extended
 - oxmysql
-- ox أو qb أو qs أو ps أو lj-inventory، أو المدمج في ESX ‏(es_extended)
+- **QBCore:** ox أو qb أو qs أو ps أو lj-inventory
+- **QBox:** ox_inventory
+- **ESX:** ox_inventory، أو الإنفنتري المدمج في ESX
 - اختياري: qb-houses أو ps-housing أو qs-housing
-- ترخيص ام دي تي المطور أو اشتراك السكربتات
+- ترخيص ام دي تي متطور أو اشتراك السكربتات
 
 ### التثبيت
 
-1. اشترِ ام دي تي المطور أو اشتراك السكربتات من متجرنا.
+1. اشترِ ام دي تي متطور أو اشتراك السكربتات من متجرنا.
 2. سجّل دخولك في panel.d7team.com عن طريق دسكورد.
 3. منطقة العميل ← تفعيل كود: اكتب الكود وآيبي سيرفرك.
-4. حمّل d7-mdt من منطقة العميل وحطه في مجلد resources حقك.
-5. أضف آيتم mdtlaptop لآيتمات الإنفنتري حقك.
-6. حدّد القطاعات في config/config.lua. الفريم وورك والإنفنتري والسكن يتعرّف عليها تلقائي.
+4. حمّل d7-mdt من منطقة العميل وحطه في مجلد resources بسيرفرك.
+5. أضف آيتم mdtlaptop لقائمة الآيتمات في الإنفنتري.
+6. حدّد القطاعات في ملف config/config.lua، والفريم وورك والإنفنتري والعقارات يتعرّف عليها تلقائياً.
 7. في server.cfg، شغّله بعد قاعدة البيانات والفريم وورك والإنفنتري:
+
+**QBCore**
 
 </div>
 
@@ -259,6 +294,37 @@ ensure d7-mdt
 
 <div dir="rtl">
 
+
+**QBox**
+
+</div>
+
+```cfg
+ensure oxmysql
+ensure ox_lib
+ensure qbx_core
+ensure ox_inventory
+ensure d7-mdt
+```
+
+<div dir="rtl">
+
+
+**ESX**
+
+</div>
+
+```cfg
+ensure oxmysql
+ensure es_extended
+ensure ox_inventory
+ensure d7-mdt
+```
+
+<div dir="rtl">
+
+
+**ESX:** لو تستخدم الإنفنتري المدمج في ESX، سطر ox_inventory ما تحتاجه.
 8. سوّ ريستارت للسيرفر.
 
 الإعدادات، أول تشغيل، التحديثات، وشرح كل رسالة بالكونسول: [شرح التثبيت](https://d7team.com/ar/guides/advanced-mdt)
@@ -266,46 +332,46 @@ ensure d7-mdt
 ### الأسعار
 
 - **⁦$34.99⁩** — [شراء هذا السكربت مرة وحدة](https://store.d7team.com/advanced-mdt/p911730490)
-- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (Advanced MDT و Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
-- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و Advanced MDT و Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
-- **⁦$34.99⁩ كل 3 أشهر** — [باقة بريميوم لمدة 3 أشهر](https://store.d7team.com/premium-bundle-90-days/p645358899)
+- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (ام دي تي متطور و بوس منيو متطور)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
+- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و ام دي تي متطور و بوس منيو متطور)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **⁦$34.99⁩ ربع سنوي** — [باقة بريميوم، ربع سنوي](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [المتجر](https://store.d7team.com/advanced-mdt/p911730490)
 
 ### الأسئلة الشائعة
 
 <details>
-<summary><b>على أي سيرفرات يشتغل Advanced MDT؟</b></summary>
+<summary><b>على أي سيرفرات يشتغل ام دي تي متطور؟</b></summary>
 
-سيرفرات QBCore و QBox و ESX، ومعها CFW، مع ox_inventory أو qb-inventory أو qs-inventory أو ps-inventory أو lj-inventory، أو الإنفنتري المدمج في ESX
-
-</details>
-
-<details>
-<summary><b>يقدر يستخدمه قطاع غير الشرطة؟</b></summary>
-
-إيه. كل قطاع عبارة عن بروفايل مربوط بوظيفة — الشرطة والشريف ووزارة العدل جاهزين بالإعداد — وكل واحد له مميزاته وصلاحيات رتبه ولوقاته.
+سيرفرات QBCore و QBox و ESX، ومعها CFW، وأغلب ريسورسات الحقائب مدعومة لكل أنواع الفريم وورك.
 
 </details>
 
 <details>
-<summary><b>يشتغل مع Advanced BossMenu؟</b></summary>
+<summary><b>هل تقدر قطاعات غير الشرطة تستخدمه؟</b></summary>
 
-إيه. نقاط العساكر والونقات من Advanced BossMenu تظهر في صفحة العساكر وصلاحيات الونقات داخل الـ MDT
+نعم. كل قطاع له بروفايل مربوط بوظيفة، والشرطة والشريف ووزارة العدل جاهزين بالإعداد، ولكل قطاع مميزاته وصلاحيات رتبه ولوقاته.
+
+</details>
+
+<details>
+<summary><b>هل يرتبط مع بوس منيو متطور؟</b></summary>
+
+نعم. نقاط العساكر والونقات من بوس منيو متطور تظهر في صفحة العساكر وفي صلاحيات الونقات داخل الـ MDT
 
 </details>
 
 <details>
 <summary><b>كيف ينفتح داخل اللعبة؟</b></summary>
 
-بآيتم اللابتوب، أو أمر ⁦/mdt⁩، أو زر، وتقدر تحطه بمكان بالماب عن طريق Target أو Interact أو ماركر.
+بآيتم اللابتوب أو أمر ⁦/mdt⁩ أو زر، وتقدر تحدد له أماكن بالماب عن طريق Target أو Interact أو ماركر.
 
 </details>
 
 <details>
-<summary><b>كم سعره؟</b></summary>
+<summary><b>كم سعر ام دي تي متطور؟</b></summary>
 
-⁦$34.99⁩ مرة وحدة، أو ⁦$7.99⁩ بالشهر مع اشتراك السكربتات الي يشمل Advanced MDT و Advanced BossMenu مع بعض. ويجي كمان مع لوحة دلتا و Advanced BossMenu في باقة بريميوم بـ ⁦$13.99⁩ بالشهر أو ⁦$34.99⁩ لمدة 3 أشهر.
+متوفر بأكثر من خيار: شراء مرة وحدة بـ ⁦$34.99⁩، أو ضمن اشتراك السكربتات مع بوس منيو متطور بـ ⁦$7.99⁩ بالشهر، أو ضمن باقة بريميوم مع لوحة دلتا و بوس منيو متطور تبدأ من ⁦$13.99⁩ بالشهر.
 
 </details>
 
@@ -315,8 +381,8 @@ ensure d7-mdt
 
 ### منتجات ثانية من دلتا سفن
 
-- [لوحة تحكم دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
-- [بوس منيو المطور](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
+- [لوحة دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
+- [بوس منيو متطور](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
 - [سيارات فايف ام مضافة](https://d7team.com/ar/cars)
 
 </div>
