@@ -106,6 +106,8 @@ Configuration, first start, updates and every console message explained: [Instal
 
 - **$34.99** — [One-time purchase of this script](https://store.d7team.com/advanced-mdt/p911730490)
 - **$7.99 / month** — [Scripts subscription (Advanced MDT and Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): every script, free IP change during the subscription, and free updates
+- **$13.99 / month** — [Premium Bundle (Delta Panel, Advanced MDT and Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **$34.99 / 3 months** — [Premium Bundle, 3 months](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [Store](https://store.d7team.com/advanced-mdt/p911730490)
 
@@ -265,6 +267,8 @@ ensure d7-mdt
 
 - **⁦$34.99⁩** — [شراء هذا السكربت مرة وحدة](https://store.d7team.com/advanced-mdt/p911730490)
 - **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (Advanced MDT و Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
+- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و Advanced MDT و Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **⁦$34.99⁩ كل 3 أشهر** — [باقة بريميوم لمدة 3 أشهر](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [المتجر](https://store.d7team.com/advanced-mdt/p911730490)
 
