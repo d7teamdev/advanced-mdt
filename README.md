@@ -134,8 +134,8 @@ Configuration, first start, updates and every console message explained: [Instal
 ### Pricing
 
 - **$34.99** — [One-time purchase of this script](https://store.d7team.com/advanced-mdt/p911730490)
-- **$7.99 / month** — [Scripts subscription (Advanced MDT and Advanced BossMenu)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): every script, free IP change during the subscription, and free updates
-- **$13.99 / month** — [Premium Plan (Delta Panel, Advanced MDT and Advanced BossMenu)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **$7.99 / month** — [Scripts subscription (Advanced MDT, Advanced BossMenu and Advanced Multicharacter)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): every script, free IP change during the subscription, and free updates
+- **$13.99 / month** — [Premium Plan (Delta Panel, Advanced MDT, Advanced BossMenu and Advanced Multicharacter)](https://store.d7team.com/premium-bundle-30-days/p387462061)
 - **$34.99 / quarter** — [Premium Plan, quarterly](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [Store](https://store.d7team.com/advanced-mdt/p911730490)
@@ -173,7 +173,7 @@ With the laptop item, the /mdt command or a key, and it can be placed in the wor
 <details>
 <summary><b>How much does Advanced MDT cost?</b></summary>
 
-It comes with several options: buy it once for $34.99, get it in the scripts subscription with Advanced BossMenu for $7.99 a month, or in the Premium Plan with Delta Panel and Advanced BossMenu from $13.99 a month.
+It comes with several options: buy it once for $34.99, get it in the scripts subscription with Advanced BossMenu and Advanced Multicharacter for $7.99 a month, or in the Premium Plan with Delta Panel, Advanced BossMenu and Advanced Multicharacter from $13.99 a month.
 
 </details>
 
@@ -185,6 +185,7 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 
 - [Delta Panel](https://github.com/d7teamdev/delta-panel) — FiveM Admin Panel for QBCore, QBox, ESX, vRP & CFW Servers
 - [Advanced BossMenu](https://github.com/d7teamdev/advanced-bossmenu) — FiveM Boss Menu for QBCore, QBox, ESX & CFW
+- [Advanced Multicharacter](https://github.com/d7teamdev/advanced-multicharacter) — FiveM Multicharacter for QBCore, QBox, ESX & CFW
 - [Add-on FiveM cars](https://d7team.com/cars)
 
 ---
@@ -332,8 +333,8 @@ ensure d7-mdt
 ### الأسعار
 
 - **⁦$34.99⁩** — [شراء هذا السكربت مرة وحدة](https://store.d7team.com/advanced-mdt/p911730490)
-- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (ام دي تي متطور و بوس منيو متطور)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
-- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و ام دي تي متطور و بوس منيو متطور)](https://store.d7team.com/premium-bundle-30-days/p387462061)
+- **⁦$7.99⁩ بالشهر** — [اشتراك السكربتات (ام دي تي متطور و بوس منيو متطور و ملتي كركتر متطور)](https://store.d7team.com/scripts-monthly-subscription/p1713646054): كل السكربتات، تغيير الآيبي مجاناً خلال مدة الاشتراك، وتحديثات مجانية
+- **⁦$13.99⁩ بالشهر** — [باقة بريميوم (لوحة دلتا و ام دي تي متطور و بوس منيو متطور و ملتي كركتر متطور)](https://store.d7team.com/premium-bundle-30-days/p387462061)
 - **⁦$34.99⁩ ربع سنوي** — [باقة بريميوم، ربع سنوي](https://store.d7team.com/premium-bundle-90-days/p645358899)
 
 [المتجر](https://store.d7team.com/advanced-mdt/p911730490)
@@ -371,7 +372,7 @@ ensure d7-mdt
 <details>
 <summary><b>كم سعر ام دي تي متطور؟</b></summary>
 
-متوفر بأكثر من خيار: شراء مرة وحدة بـ ⁦$34.99⁩، أو ضمن اشتراك السكربتات مع بوس منيو متطور بـ ⁦$7.99⁩ بالشهر، أو ضمن باقة بريميوم مع لوحة دلتا و بوس منيو متطور تبدأ من ⁦$13.99⁩ بالشهر.
+متوفر بأكثر من خيار: شراء مرة وحدة بـ ⁦$34.99⁩، أو ضمن اشتراك السكربتات مع بوس منيو متطور و ملتي كركتر متطور بـ ⁦$7.99⁩ بالشهر، أو ضمن باقة بريميوم مع لوحة دلتا و بوس منيو متطور و ملتي كركتر متطور تبدأ من ⁦$13.99⁩ بالشهر.
 
 </details>
 
@@ -383,6 +384,7 @@ ensure d7-mdt
 
 - [لوحة دلتا](https://github.com/d7teamdev/delta-panel) — لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
 - [بوس منيو متطور](https://github.com/d7teamdev/advanced-bossmenu) — سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
+- [ملتي كركتر متطور](https://github.com/d7teamdev/advanced-multicharacter) — سكربت ملتي كركتر فايف ام لـ QBCore و QBox و ESX و CFW
 - [سيارات فايف ام مضافة](https://d7team.com/ar/cars)
 
 </div>
